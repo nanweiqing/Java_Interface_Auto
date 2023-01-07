@@ -1,0 +1,67 @@
+[
+  {
+    "description": "mock框架测试",
+    "request": {
+      "uri": "/demo"
+    },
+    "response":{
+      "text": "第一次请求文本"
+    }
+  },
+  {
+    "description": "这是一个没有参数的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response":{
+      "text": "没有参数的get请求文本"
+    }
+  },
+  {
+    "description": "这是一个有参数的get请求",
+    "request": {
+      "uri": "/getdemowithp",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "13"
+      }
+    },
+    "response":{
+      "text": "有参数的get请求文本"
+    }
+  },
+  {
+    "description": "这是一个有参数的post请求",
+    "request": {
+      "uri": "/postdemowithp",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "13"
+      }
+    },
+    "response":{
+      "text": "有参数的post请求文本"
+    }
+  },
+  {
+    "description": "这是一个需要cookie的传json的post请求",
+    "request": {
+      "uri": "/postwithjsont",
+      "method": "post",
+      "json": {
+        "name": "fefe"
+      }
+    },
+
+    "response":{
+      "status": 200,
+      "json": {
+        "name": "huhusuccess",
+        "status": "2"
+      }
+    }
+  }
+]

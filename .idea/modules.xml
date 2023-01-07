@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" filepath="$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_auto/java_auto.iml" filepath="$PROJECT_DIR$/java_auto/java_auto.iml" />
+    </modules>
+  </component>
+</project>

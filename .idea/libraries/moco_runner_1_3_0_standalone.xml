@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="moco-runner-1.3.0-standalone">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mocktest/moco-runner-1.3.0-standalone.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

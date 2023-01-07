@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+
+
+
+    <test name="pay">
+
+        <classes>
+            <parameter name="name" value="yanjie"/>
+            <parameter name="age" value="32"/>
+            <class name="com.example.testng.suite.ParameterTest"></class>
+            <class name="com.example.testng.suite.group.Student1"></class>
+            <class name="com.example.testng.suite.group.Student2"></class>
+            <class name="com.example.testng.suite.group.Teacher"></class>
+        </classes>
+
+    </test>
+</suite>

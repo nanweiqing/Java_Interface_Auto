@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+    <!--<test name="login">
+
+        <classes>
+            <class name="com.example.testng.suite.SuiteConfig"></class>
+            <class name="com.example.testng.suite.LoginTest"></class>
+        </classes>
+
+    </test>-->
+
+
+    <test name="pay">
+
+        <groups name ="stu">
+            <run>
+                <include name="teacher"/>
+            </run>
+
+        </groups>
+        <classes>
+            <class name="com.example.testng.suite.group.Student1"></class>
+            <class name="com.example.testng.suite.group.Student2"></class>
+            <class name="com.example.testng.suite.group.Teacher"></class>
+        </classes>
+
+    </test>
+</suite>
